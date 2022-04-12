@@ -62,7 +62,7 @@ unset($_SESSION['cart']);
 <?php 
 echo "
 							<script language='javascript'>
-								alert('Đơn hàng của bạn đã thiết lập thành công chúng tôi sẽ chuyển hàng cho bạn trong thời gian sớm nhất');
+								alert('Đơn hàng của bạn đã thiết lập thành công ');
 								window.open('index.php','_self',3);
 							</script>
 						";
