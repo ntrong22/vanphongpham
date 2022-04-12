@@ -186,7 +186,7 @@ e.preventDefault();
 						<li><a href="index.php">Trang Chủ</a></li>
 						<!-- <li><a href="index.php?content=gioithieu">Giới Thiệu</a></li> -->
 						<li><a href="index.php?content=sanpham">Văn phòng phẩm</a>
-						<li><a href="index.php?content=phukien">Thiết Bị Văn Phòng</a></li>
+						<li><a href="index.php?content=phukien">Thiết Bị Văn Phòng </a></li>
 						<li><a href="index.php?content=khuyenmai">Khuyến Mãi</a></li>
 						<li><a href="index.php?content=tintuc">Tin Tức</a></li>
 						<li><a href="index.php?content=hotro">Hỗ Trợ</a></li>
