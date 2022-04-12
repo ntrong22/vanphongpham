@@ -47,12 +47,8 @@ if(isset($_GET['admin']))
 		case 'hienthiht':
 			include ("hotro.php");
 			break;
-		case 'hienthincc':
-			include ("nhacungcap.php");
-			break;
-		case 'themncc':
-			include ("them_nhacungcap.php");
-			break;
+		
+		
 		case 'suancc':
 			include ("sua_nhacungcap.php");
 			break;
@@ -74,9 +70,7 @@ if(isset($_GET['admin']))
 		case 'xulytt':
 			include ("xulytt.php");
 			break;
-		case 'xulyncc':
-			include ("xulyncc.php");
-			break;
+		
 		default:
 			include ("sanpham.php");
 			break;

@@ -1,6 +1,6 @@
 ﻿<?php 
    session_start();
-   if(!isset($_SESSION['username'])   or ($_SESSION['phanquyen']==1))
+   if(!isset($_SESSION['username'])  or ($_SESSION['phanquyen']==1))
    {
 		
 		header('location:login.php');
@@ -50,7 +50,7 @@
 							<!-- <li><a href="?admin=hienthidm"> Quản lý danh mục</a></li> -->
 							<li><a href="?admin=hienthihd"> Quản lý hóa đơn</a></li>
 							<li><a href="?admin=hienthind"> Quản lý người dùng</a></li>
-							<li><a href="?admin=hienthincc">Quản lý nhà cung cấp </a></li>
+							
 							<li><a href="?admin=hienthitk">Báo cáo thống kê </a></li>
 							<li><a href="?admin=hienthitt">Tin Tức </a></li>
 							<!--<li><a href="?admin=hienthiht">Hỗ trợ </a></li> -->

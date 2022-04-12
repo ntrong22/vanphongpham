@@ -103,11 +103,13 @@ $tongtien+=$_SESSION['cart'][$row['idsp']]*$row['gia'];
 								<div id="select2">
 									<select name="gia">
 										<option value="0"> - Chọn giá - </option>
-										<option value="1">  < 100.000</option>
-										<option value="2">100.000 - 500.000</option>
-										<option value="3">500.000 - 2.000.000</option>
-									
-										<option value="6"> > 2.000.000</option>
+										<option value="1">  < 50.000</option>
+										<option value="2">50.000 - 200.000</option>
+										<option value="3">200.000 - 500.000</option>
+										<option value="4">500.000 - 1.000.000</option>
+										<option value="5">1.000.000 - 2.000.000</option>
+										<option value="6">>2.000.000</option>
+								
 									</select>
 									<input type="submit" name="btntk" value="Search" style="background-color: #4CAF50;
   border: none;

@@ -1,4 +1,6 @@
-﻿<?php 
+﻿
+
+<?php 
 
 	$matt=$_GET['matt'];
 	$select=$link->query("select * from tintuc where matt='".$matt."'");

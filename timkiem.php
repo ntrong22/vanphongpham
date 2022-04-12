@@ -5,22 +5,22 @@ if(isset($_GET['timkiem']))
   switch($_GET['gia'])
   {
 	case "1":
-		$sql="select * FROM sanpham WHERE tensp like '%".$tim."%' and (gia between '0' and '1000000')";	
+		$sql="select * FROM sanpham WHERE tensp like '%".$tim."%' and (gia between '0' and '50000')";	
 	break;
 	case "2":
-		$sql="select * FROM sanpham WHERE tensp like '%".$tim."%'  and (gia between '1000000' and '3000000')";	
+		$sql="select * FROM sanpham WHERE tensp like '%".$tim."%'  and (gia between '50000' and '200000')";	
 	break;
 	case "3":
-		$sql="select * FROM sanpham WHERE tensp like '%".$tim."%'  and (gia between '3000000' and '5000000')";	
+		$sql="select * FROM sanpham WHERE tensp like '%".$tim."%'  and (gia between '200000' and '500000')";	
 	break;
 	case "4":
-		$sql="select * FROM sanpham WHERE tensp like '%".$tim."%'  and (gia between '5000000' and '8000000')";	
+		$sql="select * FROM sanpham WHERE tensp like '%".$tim."%'  and (gia between '500000' and '1000000')";	
 	break;
 	case "5":
-		$sql="select * FROM sanpham WHERE tensp like '%".$tim."%'  and (gia between '8000000' and '10000000')";	
+		$sql="select * FROM sanpham WHERE tensp like '%".$tim."%'  and (gia between '1000000' and '2000000')";	
 	break;
 	case "6":
-		$sql="select * FROM sanpham WHERE tensp like '%".$tim."%'  and (gia >= '10000000')";	
+		$sql="select * FROM sanpham WHERE tensp like '%".$tim."%'  and (gia >= '2000000')";	
 	break;
 	default:
 	  $sql="select * FROM sanpham WHERE tensp like '%".$tim."%' ";	
