@@ -51,7 +51,7 @@
 							<li><a href="?admin=hienthihd"> Quản lý hóa đơn</a></li>
 							<li><a href="?admin=hienthind"> Quản lý người dùng</a></li>
 							
-							<li><a href="?admin=hienthitk">Báo cáo thống kê </a></li>
+							
 							<li><a href="?admin=hienthitt">Tin Tức </a></li>
 							<!--<li><a href="?admin=hienthiht">Hỗ trợ </a></li> -->
 

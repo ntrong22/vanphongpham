@@ -62,8 +62,12 @@ while($row=mysqli_fetch_array($rows))
 	<p>Tổng cộng: <span><?php  echo number_format($tongtien,0,",",".") ?></span> VNĐ</p>
 </div>
 <div class="tieptucmuahang">
-	<p class="tieptucmuahangcon"><a href="index.php">Tiếp tục mua hàng  </a></p><p class="thanhtoancon"><a href="index.php?content=cart&action=check">Thanh toán</a></p>
+	<p class="tieptucmuahangcon"><a href="index.php">Tiếp tục mua hàng  </a></p>
+    <p class="thanhtoancon"><a href="index.php?content=cart&action=check">Thanh toán</a></p>
+
+
 </div>
+
 <?php
 }
 ?>
