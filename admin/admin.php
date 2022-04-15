@@ -53,7 +53,7 @@
 							
 							
 							<li><a href="?admin=hienthitt">Tin Tức </a></li>
-							<!--<li><a href="?admin=hienthiht">Hỗ trợ </a></li> -->
+						<li><a href="?admin=hienthiht">Hỗ trợ </a></li> 
 
 
 
