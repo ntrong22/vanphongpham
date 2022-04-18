@@ -127,7 +127,7 @@ height: 25px;" />
 					
 					</div><!-- End .center1-->
 				</div><!-- End .timkiem-->
-				
+				<!--
 				<div id="yahoo">
 					<div class="center1">
 						<h4>Hotline</h4>
