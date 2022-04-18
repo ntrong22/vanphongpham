@@ -10,10 +10,10 @@ if(isset($_POST['login']))
     $dem = mysqli_num_rows($sql_check);
     if($dem == 0)
     {
-        $_SESSION['thongbaolo'] = "Tài khoản không tồn tại";
+        $_SESSION['thongbaolo'] = "Bạn Cần Phải Đăng Nhập";
 		echo "
 							<script language='javascript'>
-								alert('Tài khoản không tồn tại');
+								alert('Bạn Cần Phải Đăng Nhập');
 								window.open('index.php','_self', 1);
 							</script>
 						";
