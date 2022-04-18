@@ -139,5 +139,5 @@ height: 25px;" />
 							<p>0982612514</p>
 					</div><!-- End .center1-->
 				<!-- End .yahoo -->
-				</div>
+				
 			
