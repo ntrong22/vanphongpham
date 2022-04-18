@@ -1,4 +1,6 @@
-﻿ <div id="dangnhap">
+﻿ 
+
+ <div id="dangnhap">
 					<div class="center1">
 						<h4>Đăng Nhập</h4>
 						<?php if(isset( $_SESSION['username'])){
@@ -136,6 +138,6 @@ height: 25px;" />
 						<h2><a href="ymsgr:sendim?boydangyeu8188&amp;m=g&amp;t=14"><img src="img/imonline.png"></a></h2>
 							<p>0982612514</p>
 					</div><!-- End .center1-->
-				</div><!-- End .yahoo -->
-				
-				
+				<!-- End .yahoo -->
+				</div>
+			
