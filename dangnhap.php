@@ -13,7 +13,7 @@ if(isset($_POST['login']))
         $_SESSION['thongbaolo'] = "Bạn Cần Phải Đăng Nhập";
 		echo "
 							<script language='javascript'>
-								alert('Bạn Cần Phải Đăng Nhập');
+								alert('Tài khoản không tồn tại');
 								window.open('index.php','_self', 1);
 							</script>
 						";
