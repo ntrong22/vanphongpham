@@ -28,8 +28,8 @@ margin-right: 40px;" href="logout.php" style="font-size: 15px;">Đăng xuất</a
 						?>
 						<div id="dangnhap-in">
 							<form action="dangnhap.php" method="post">
-								<span><p>Username: <input type="text" size="10" name="user"></p> <br>
-								<p>Password: <input type="password" size="10" name="pass"></p> <br></span>
+								<span><p>Tài khoản <input type="text" size="10" name="user"></p> <br>
+								<p>Mật Khẩu <input type="password" size="10" name="pass"></p> <br></span>
 								<a href="index.php?content=dangnhap"><button name="login" style="background-color: #4CAF50;
   border: none;
   color: white;
