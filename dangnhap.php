@@ -39,7 +39,7 @@ if(isset($_POST['login']))
                 
                 if($_SESSION['phanquyen'] ==0)
 					{
-						 sđasa
+						
 						echo "
 							<script language='javascript'>
 								
