@@ -179,7 +179,7 @@
 		}
 		mk=frm.pass.value;
 		mk1=frm.pass1.value;
-		if(pass!=pass1)
+		if(frm.pass!=frm.pass1)
 		{
 			alert("Password chưa đúng");	
 			frm.pass1.focus();
