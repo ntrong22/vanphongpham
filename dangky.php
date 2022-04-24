@@ -179,9 +179,9 @@
 		}
 		mk=frm.pass.value;
 		mk1=frm.pass1.value;
-		if(frm.pass!=frm.pass1)
+		if(mk!=mk1)
 		{
-			alert("Password chưa đúng");	
+			alert("Password nhập lại chưa đúng");	
 			frm.pass1.focus();
 			return false;
 		}
